@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -7,7 +8,12 @@
 <link rel="icon" type="image/png" href="favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-body { margin: 0; background: #ffffff; color: #111; font-family: 'Inter', sans-serif; }
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #111;
+  font-family: 'Inter', sans-serif;
+}
 a { text-decoration: none; color: inherit; }
 a:hover { opacity: 0.7; }
 .menu { display: flex; justify-content: space-between; padding: 40px 20px 20px 20px; font-size: 11px; letter-spacing: 3px; font-weight: 600; }
@@ -26,6 +32,156 @@ a:hover { opacity: 0.7; }
   font-weight: 300;
   line-height: 2.5;
 }
+
+.info {
+  margin: 60px auto 80px auto;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 1.8;
+  max-width: 500px;
+}
+
+
+/* =========================================================
+   NEW CODE - EVENT STYLING
+   Everything below this comment has been added for the
+   event listings. The original CSS above remains unchanged.
+   ========================================================= */
+
+
+/* Container for all events */
+.events {
+  margin: 0 20px 100px 20px;
+}
+
+
+/* Individual event.
+   Each event takes up roughly 35-40% of the screen height,
+   allowing around 2.5 events to be visible at once. */
+.event {
+  min-height: 36vh;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 50px;
+  align-items: center;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Event image */
+.event-image {
+  width: 36vh;
+  height: 36vh;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+}
+
+
+/* Text section of each event */
+.event-info {
+  padding: 10px 20px 10px 0;
+  text-align: left;
+}
+
+
+/* Event date and time */
+.event-date {
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+
+/* Event title */
+.event-title {
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+
+/* Artist name(s) */
+.event-type {
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+/* Event description */
+.event-description {
+  font-size: 13px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+
+/* Artist contact information */
+.event-contact {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+}
+
+
+/* Makes sure the links inside event contact information
+   behave like the rest of the website */
+.event-contact a {
+  text-decoration: underline;
+}
+
+
+/* Mobile layout:
+   On smaller screens the image appears above the text.
+   The events still remain compact enough for scrolling. */
+@media (max-width: 700px) {
+
+  .event {
+    min-height: auto;
+    display: block;
+    margin-bottom: 70px;
+  }
+
+.event-image {
+    width: min(38vh, 90vw);
+    height: min(38vh, 90vw);
+    margin: 10px auto 25px auto;
+}
+
+  .event-info {
+    padding: 0;
+    text-align: center;
+  }
+
+  .event-title {
+    font-size: 22px;
+  }
+
+  .event-description {
+    font-size: 13px;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+  }
+}
+
+
+/* =========================================================
+   END OF NEW EVENT STYLING
+   ========================================================= */
+
 </style>
 </head>
 <body>
@@ -33,19 +189,40 @@ a:hover { opacity: 0.7; }
 <div class="menu">
   <div><a href="index.html">HEM</a></div>
   <div><a href="meny.html">MENY</a></div>
-  <div><a href="https://www.instagram.com/barenbarbaren" target="_blank">EVENT</a></div>
+  <div><a href="event.html">EVENT</a></div>
   <div><a href="om-oss.html">OM OSS</a></div>
 </div>
 
 <div class="logo">
-  <a href="index.html"><img src="oppnarsnart.gif" alt="Barbaren logotyp"></a>
+  <a href="index.html"><img src="images/oppnarsnart.gif" alt="Barbaren logotyp"></a>
 </div>
 
 <div class="content">
-  <div>EVENT</div>
+  <div>KOMMANDE EVENT</div>
 </div>
 
+<!-- =========================================================
+     NEW CODE - EVENTS
+     The events are listed chronologically.
+     Earlier dates appear first and later dates appear lower
+     down the page.
+     ========================================================= -->
+
+<div class="events" id="events"></div>
+
+
+<script src="events.js"></script>
+
+<!-- =========================================================
+     END OF NEW EVENTS
+     ========================================================= -->
+
+
 <div class="footer">
+  <div class="address">
+      Har du något du vill spela, visa upp eller ställa ut? Skriv till <div class="contact">bokbar@barbaren.se</div>
+  </div>
+  
   <div class="address">
     Amiralsgatan 47<br>
     214 37 Malmö Sverige
@@ -59,3 +236,4 @@ a:hover { opacity: 0.7; }
 
 </body>
 </html>
+```
