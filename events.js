@@ -179,6 +179,125 @@ const events = [
     email: "selmalundgren@hotmail.com"
   },
 
+  // -------------------------------------------------------
+  // HANS HARALD
+  // -------------------------------------------------------
+
+/*  {
+    date: "2026-12-13",
+    time: "TBA",
+
+    title: "HANS HARALD",
+    type: "Spelning",
+
+    image: "images/exempel.jpg",
+
+    description:
+      "Blablabla",
+
+    instagram: "https://www.instagram.com/hansharald.se/",
+    email: "exempel@example.com"
+  } */
+
+  // -------------------------------------------------------
+  // LEJLA CATO
+  // -------------------------------------------------------
+
+  {
+    date: "2027-01-13",
+    time: "18:00",
+
+    title: "LEJLA CATO",
+    type: "Läsning av diktdebut",
+
+    image: "images/lejla_cato.png",
+
+    description:
+      "Varmt välkomna till releasefest för ”Skjuter ut mitt leende”, en diktdebut av Lejla Cato utgiven på Albert Bonniers förlag. Boken är skriven utifrån inbördeskriget i Bosnien och frågar: Finns det ett språk som kan skildra folkmord utan att skriva fram det på nytt?",
+
+    instagram: "https://instagram.com/",
+    email: "exempel@example.com"
+  }, 
+
+  // -------------------------------------------------------
+  // JOHANNA BERLING
+  // -------------------------------------------------------
+
+  {
+    date: "2027-01-21",
+    time: "20:00 - 21:00",
+
+    title: "JOHANNA BERLING",
+    type: "Spelning",
+
+    image: "images/johanna_berling.jpg",
+
+    description:
+      "Estrid Johanna bjuder på en eftertänksam och smakfull blandning av elektroniska och akustiska element. Scener målas upp i det inre och utifrån olika ljudlandskap och effekter, syntar och trummaskiner fantiserar hon i sång om det enkla och svåra i livet. Sångerna är nära, emotionella och stundtals drömlika.",
+
+    instagram: "https://www.instagram.com/estridjohanna/",
+    email: "estridjohanna@gmail.com"
+  }, 
+
+  // -------------------------------------------------------
+  // HERMAN FREDH
+  // -------------------------------------------------------
+
+/*  {
+    date: "2027-01-28",
+    time: "TBA",
+
+    title: "HERMAN FREDH",
+    type: "Spelning",
+
+    image: "images/exempel.jpg",
+
+    description:
+      "Blablabla",
+
+    instagram: "https://www.instagram.com/herman_fredh/",
+    email: "exempel@example.com"
+  } */
+  
+  // -------------------------------------------------------
+  // KUSTVÄGEN
+  // -------------------------------------------------------
+
+  {
+    date: "2027-02-11",
+    time: "TID: TBA",
+
+    title: "KUSTVÄGEN",
+    type: "Spelning",
+
+    image: "images/kustvagen.jpg",
+
+    description:
+      "Med sin blandning av folk, visa och alt-country på skånska har Malmöbaserade Kustvägen blivit ett nytt namn på den svenska musikscenen att hålla ögonen på. Bandet debuterade under hösten 2022 med singeln ”Som din far”, vilken lovordades runt om i landet.",
+
+    instagram: "https://www.instagram.com/kustvagenmusik/",
+    email: "kristenssoncharlie@gmail.com"
+  }, 
+
+  // -------------------------------------------------------
+  // ORBITAL EXPERIMENT
+  // -------------------------------------------------------
+
+  {
+    date: "2027-02-24",
+    time: "TID: TBA",
+
+    title: "ORBITAL EXPERIMENT",
+    type: "Spelning",
+
+    image: "images/orbital_experiment.png",
+
+    description:
+      "Orbital Experiment är ett dansk-svenskt band som spelar neo-soul med influenser från hiphopens beats och jazzens lekfulla samspel. De blandar elektroniska sounds med improvisatoriska inslag i ett modernt uttryck som får det att pirra i hela kroppen.",
+
+    instagram: "https://www.instagram.com/orbitalexperiment/",
+    email: "orbitalband.media@gmail.com"
+  }
 
   // -------------------------------------------------------
   // EXEMPEL
