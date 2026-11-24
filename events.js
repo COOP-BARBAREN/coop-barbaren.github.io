@@ -163,7 +163,7 @@ const events = [
   // SELMA LUNDGREN
   // -------------------------------------------------------
 
-  {
+/*  {
     date: "2026-12-19",
     time: "TID: TBA",
 
@@ -177,7 +177,7 @@ const events = [
 
     instagram: "https://instagram.com/seelmalundgren/",
     email: "selmalundgren@hotmail.com"
-  },
+  }, */
 
   // -------------------------------------------------------
   // HANS HARALD
